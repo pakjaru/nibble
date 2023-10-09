@@ -7,6 +7,7 @@
   --nibble-light-blue: #D0EAEF;
   --nibble-yellow: #FFD280;
   --nibble-bg-main: #F8F8FF;
+  --nibble-bg-gradient: radial-gradient(138.23% 138.23% at 50% 50%, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%), url(<path-to-image>), lightgray 1442.072px 428.568px / -100.475% -162.766% no-repeat;
 
   --nibble-normal-font-size: 16px;
 
