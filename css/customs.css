@@ -1,0 +1,21 @@
+.nav-link {
+  color: rgba(var(--nibble-dark-gray), 0.2);
+}
+
+.nav-link:hover,
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: var(--nibble-dark-gray);
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.bg-nibble-red {
+  background-color: var(--nibble-red);
+}
+
+a {
+  text-decoration: none;
+}

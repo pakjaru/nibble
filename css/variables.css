@@ -1,0 +1,10 @@
+:root {
+  --nibble-red: #FF1000;
+  --nibble-dark-gray: #2C2F32;
+
+  --nibble-normal-font-size: 16px;
+
+  --nibble-normal-font-weight: 400;
+  --nibble-semibold-font-weight: 600;
+  --nibble-bold-font-weight: 700;
+}
