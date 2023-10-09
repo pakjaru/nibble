@@ -1,6 +1,12 @@
 :root {
   --nibble-red: #FF1000;
   --nibble-dark-gray: #2C2F32;
+  --nibble-purple:  #9D71C7;
+  --nibble-dark-purple: #5A2C83;
+  --nibble-light-purple: #D3BBE0;
+  --nibble-light-blue: #D0EAEF;
+  --nibble-yellow: #FFD280;
+  --nibble-bg-main: #F8F8FF;
 
   --nibble-normal-font-size: 16px;
 

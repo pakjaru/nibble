@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="./css/customs.css">
 </head>
 <body>
-  <header class="py-2">
+  <header class="bg-white py-2 position-fixed w-100 z-3">
     <nav class="navbar navbar-expand-md">
       <div class="container-fluid px-4 px-lg-5 d-flex align-items-center justify-content-between">
         <a class="navbar-brand p-0 me-3 me-lg-4" href="#">
@@ -52,6 +52,71 @@
       </div>
     </nav>
   </header>
+
+  <main class="nibble-main-section">
+    <section class="nibble-contact-us">
+      <div class="container custom-container">
+        <div class="row">
+          <div class="col-md-5 col-lg-4 position-relative">
+            <h2 class="fs-6 fw-semibold text-uppercase text-nibble-primary">Contact Us</h2>
+            <p class="fs-2 fw-bold text-nibble-dark-purple lh-sm mt-2 mb-0">Hey! Want to chat? <br>Drop us a line here.</p>
+            <p class="mt-4 mb-0">Have a question, need support? Looking for a PR freelancer for hire as an alternative to a public relations agency or in house? Are you a publicity specialist looking to join our consultant database?</p>
+            <p class="mt-4 mb-0">For any reason, please fill in the form on the right so that your message is directed to the right person or team. We read every message that we get and will reply to you as soon as we can.</p>
+            
+            <div class="circle-decoration decoration-light-purple"></div>
+            <div class="circle-decoration decoration-yellow"></div>
+          </div>
+          <div class="col-md-7 col-lg-8 position-relative mt-4 mt-md-0">
+            <form class="bg-white rounded shadow-sm p-3 p-md-5">
+              <div class="row">
+                <div class="col-xl-6">
+                  <input type="text" class="form-control form-custom-height fs-7" placeholder="First and last name" aria-label="First and last name">
+                </div>
+                <div class="col-xl-6 mt-4 mt-xl-0">
+                  <input type="email" class="form-control form-custom-height fs-7" placeholder="Email address" aria-label="Email address">
+                </div>
+              </div>
+
+              <div class="row mt-4">
+                <div class="col">
+                  <select class="form-select form-custom-height fs-7" aria-label="Reasons for contacting us">
+                    <option selected>Reasons for contacting us</option>
+                    <option value="1">Reason One</option>
+                    <option value="2">Reason Two</option>
+                    <option value="3">Reason Three</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="row mt-4">
+                <div class="col">
+                  <textarea class="form-control fs-7" rows="4" placeholder="Write your message here, please be as detailed as you can."></textarea>
+                </div>
+              </div>
+
+              <div class="d-flex align-items-center justify-content-between flex-wrap mt-4">
+                <div class="flex-shrink-lg-0">
+                  <div class="custom-control custom-checkbox d-flex align-items-start">
+                    <input type="checkbox" class="custom-control-input mt-1 me-2" id="aggrementCheckbox" />
+                    <label class="custom-control-label fs-7" for="aggrementCheckbox">I agree to hear more about Nibble, its services and articles</label>
+                  </div>
+                </div>
+                <div class="mt-3 mt-xl-0 ms-auto ms-xl-0">
+                  <button type="submit" class="btn btn-outline-nibble-red">
+                    <img src="./images/paper-plane.svg" alt="Paper plane" height="16" width="16">
+                    <span>Send</span>
+                  </button>
+                </div>
+              </div>
+            </form>
+
+            <div class="circle-decoration decoration-light-blue"></div>
+            <div class="circle-decoration decoration-purple"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
