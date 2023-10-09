@@ -1,3 +1,8 @@
+*::selection {
+  background-color: var(--nibble-purple);
+  color: var(--bs-white);
+}
+
 .nav-link {
   color: rgba(var(--nibble-dark-gray), 0.2);
 }
@@ -127,6 +132,7 @@
   .circle-decoration.decoration-yellow {
     bottom: -25px;
     left: -58px;
+    top: auto;
   }
   
   .circle-decoration.decoration-light-blue {
@@ -198,6 +204,12 @@
 @media (min-width: 768px) {
   .fs-md-8 {
     font-size: 12px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .fs-xl-6 {
+    font-size: 16px;
   }
 }
 
